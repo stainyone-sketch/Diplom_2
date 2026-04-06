@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"zroxpnte@yandex.ru","name":"mgszveyt"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDJhNWY4OTg0MjcwMDAxYmU3YWE3MiIsImlhdCI6MTc3NTQxMjcyOCwiZXhwIjoxNzc1NDEzOTI4fQ.CU97WLYkoGDOWJtIFoSYunIryDyT3cMaXShmYiKWKk4","refreshToken":"1142b0c4307d7aee1fea182076ad5fbfb433808def7471bbb4daca029c0be57b1db64bc7885b56aa"}
