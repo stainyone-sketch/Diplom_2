@@ -1,1 +1,0 @@
-{"success":true,"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDJhNjA0OTg0MjcwMDAxYmU3YWE3ZCIsImlhdCI6MTc3NTQxMjc0MSwiZXhwIjoxNzc1NDEzOTQxfQ.xKNOfxKQL1GflassuP1tw3TFopE2A2qBFDveB1TjWfU","refreshToken":"06ef11fbcc2983e764a8876a78ecf547e9a870b23c6de52a21d57cd5c8b874a73147715f354fbeb9","user":{"email":"nfgpjtmq@yandex.ru","name":"yfsxhksl"}}

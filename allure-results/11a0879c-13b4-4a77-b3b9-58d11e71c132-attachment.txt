@@ -1,0 +1,1 @@
+{"success":true,"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDYxYWMzOTg0MjcwMDAxYmU3YzU5YyIsImlhdCI6MTc3NTYzOTIzNSwiZXhwIjoxNzc1NjQwNDM1fQ.k6Q1Ms_97mVPV1bhWVD_vnssQeNQIMdZoQIwr59_nQM","refreshToken":"e883e0a65eaccb82fa7753708ac3e15785ca4bb3f647ac8445266861fc46a44eeae0eacdd8635ab9","user":{"email":"tcrahjms@yandex.ru","name":"hgbnvlvi"}}

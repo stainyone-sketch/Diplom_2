@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"ccupwfxt@yandex.ru","name":"vwsxxeyf"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDYxOGY3OTg0MjcwMDAxYmU3YzU2NyIsImlhdCI6MTc3NTYzODc3NSwiZXhwIjoxNzc1NjM5OTc1fQ.5DLa59z1qv4yGR5BLYYMEqnLHZ8p1llFmA7hyJaz7_U","refreshToken":"40cb84e26f28352f5f993973193aa78b4819aac29175fcae2d661727b74784532b34225581fd3dd9"}

@@ -4,6 +4,7 @@ REGISTER = "/auth/register"
 LOGIN = "/auth/login"
 ORDERS = "/orders"
 INGREDIENTS = "/ingredients"
+USER_DELETE = "/auth/user"
 
 HTTP_OK = 200 # фактически API возвращает 200 при успешном создании, хотя логичнее было бы 201. Оставляем 200 для соответствия реальному поведению API, чтобы была возможность использовать его для проверки успешного создания.
 HTTP_CREATED = 201 

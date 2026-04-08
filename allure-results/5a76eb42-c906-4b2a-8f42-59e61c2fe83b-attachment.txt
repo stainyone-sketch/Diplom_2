@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"vbzmodio@yandex.ru","name":"bditnhws"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDYyMWRlOTg0MjcwMDAxYmU3YzVmMyIsImlhdCI6MTc3NTY0MTA1NCwiZXhwIjoxNzc1NjQyMjU0fQ.JCyhkWIIH6S41gUrEcoXNq6j-NWsGAsSlCckMhO4VBM","refreshToken":"52eeffe8532980fe52e673d51a302582905256fd06aeef5db4585a0acfdec0b958d7a3865407c265"}

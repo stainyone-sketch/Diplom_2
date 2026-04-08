@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"mytyedej@yandex.ru","name":"edmaaces"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDYyMWRkOTg0MjcwMDAxYmU3YzVmMSIsImlhdCI6MTc3NTY0MTA1MywiZXhwIjoxNzc1NjQyMjUzfQ._uNhiLXqZrbxoTCKEWHiYUS0iOp5HARtDUn5WyjWhg8","refreshToken":"fe0ad63ac403b261c3b8e8ed33a7eec5dce5ddf033835ade9aa1a52aec40b79c6f51312b640706b2"}
