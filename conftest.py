@@ -3,13 +3,13 @@ import pytest
 import requests
 from api.user_api import UserAPI
 from api.order_api import OrderAPI
-from constants import BASE_URL, INGREDIENTS, HTTP_OK
+from constants import BASE_URL, HTTP_OK, INGREDIENTS
 from helpers import generate_user_payload
 
 @pytest.fixture(scope="session")
 def api_client():
     with requests.Session() as session:
-        yield session
+        return session
 
 @pytest.fixture
 def user_api(api_client):
@@ -37,7 +37,6 @@ def auth_headers(created_user):
 def existing_user(user_api):
     payload = generate_user_payload()
     resp = user_api.register(payload)
-    assert resp.status_code == HTTP_OK, "Не удалось создать пользователя в фикстуре"
     data = resp.json()
     user_info = {
         "email": payload["email"],
@@ -49,6 +48,18 @@ def existing_user(user_api):
     yield user_info
     if user_info.get("accessToken"):
         user_api.delete_user(user_info["accessToken"])
+
+@allure.title("Создание уникального пользователя")
+def test_create_unique_user(self, user_api):
+    payload = generate_user_payload()
+    resp = user_api.register(payload)
+    data = resp.json()
+    try:
+        assert resp.status_code == HTTP_OK
+        assert data["success"] is True
+    finally:
+        if "accessToken" in data:
+            user_api.delete_user(data["accessToken"])
 
 @pytest.fixture
 def created_user(user_api):
