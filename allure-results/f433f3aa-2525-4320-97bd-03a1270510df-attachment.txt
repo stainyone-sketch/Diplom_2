@@ -1,0 +1,1 @@
+{"success":true,"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDg5NDc5OTg0MjcwMDAxYmU3ZGY0NyIsImlhdCI6MTc3NTgwMTQ2NiwiZXhwIjoxNzc1ODAyNjY2fQ.Xh5wmzlnm4E5Tt9u-QLwvp5djRtHgKm8slekwmyqSeY","refreshToken":"ef2c68b3be002dc7bc262a330e05dab6953c40e8da346c7376203a91e9f2aa6808810652d1bd7a36","user":{"email":"fckfcbuw@yandex.ru","name":"yyebmnry"}}
