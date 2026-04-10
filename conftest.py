@@ -49,17 +49,13 @@ def existing_user(user_api):
     if user_info.get("accessToken"):
         user_api.delete_user(user_info["accessToken"])
 
-@allure.title("Создание уникального пользователя")
-def test_create_unique_user(self, user_api):
-    payload = generate_user_payload()
-    resp = user_api.register(payload)
-    data = resp.json()
-    try:
-        assert resp.status_code == HTTP_OK
-        assert data["success"] is True
-    finally:
-        if "accessToken" in data:
-            user_api.delete_user(data["accessToken"])
+@allure.title("Удаление пользователя после теста") #Может, сделать проще.
+@pytest.fixture
+def user_cleanup(user_api):
+    tokens = {"accessToken": None}
+    yield tokens
+    if tokens["accessToken"]:
+        user_api.delete_user(tokens["accessToken"])
 
 @pytest.fixture
 def created_user(user_api):

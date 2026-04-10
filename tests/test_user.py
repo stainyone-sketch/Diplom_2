@@ -7,16 +7,13 @@ from helpers import generate_user_payload
 @allure.epic("Пользователь")
 class TestUser:
     @allure.title("Создание уникального пользователя")
-    def test_create_unique_user(self, user_api):
+    def test_create_unique_user(self, user_api, user_cleanup):
         payload = generate_user_payload()
         resp = user_api.register(payload)
         data = resp.json()
-        try:
-            assert resp.status_code == HTTP_OK
-            assert data["success"] is True
-        finally:
-            if "accessToken" in data:
-                user_api.delete_user(data["accessToken"])
+        user_cleanup["accessToken"] = data.get("accessToken")
+        assert resp.status_code == HTTP_OK
+        assert data["success"] is True
 
     @allure.title("Создание существующего пользователя")
     def test_create_existing_user(self, user_api, existing_user):
